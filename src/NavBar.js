@@ -1,10 +1,16 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+const styles = {
+  nav: {
+    backgroundColor: "#38588F"
+  }
+}
+
 export default NavBar => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand">Full Circle</a>
+    <nav className="navbar sticky-top navbar-expand-lg navbar-dark" style={styles.nav}>
+      <a className="navbar-brand text-white">Full Circle</a>
       <button className="navbar-toggler" 
         type="button" 
         data-toggle="collapse" 

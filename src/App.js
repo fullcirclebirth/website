@@ -3,13 +3,14 @@ import React, { Component } from 'react'
 import NavBar from './NavBar'
 import routes from './routes'
 
-
 class App extends Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container-fluid m-0 p-0">
         <NavBar />
-        { routes }
+        <div className="m-0 p-0">
+          { routes }
+        </div>
       </div>
     )
   }

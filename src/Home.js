@@ -11,17 +11,17 @@ const styles = {
 
 export default Home => {
   return (
-    <div className="container p-0 m-0 mx-auto" style={styles.bgColor}>
+    <div className="container" style={styles.bgColor}>
       <div className="row">
-        <div className="col">
-          <img className="img-fluid" 
+        <div className="col-md-6">
+        <img className="img-fluid" 
             src={require("./img/full-circle-white.png")} 
             alt="Full Circle Birth Logo" 
             style={styles.imgSize}
           />
         </div>
-        <div className="col jumbotron jumbotron-fluid" style={styles.bgColor}>
-          <h1 className="display-4 align-middle text-white">COMPLETE YOUR CIRCLE OF CARE</h1>
+        <div className="col-md-6 my-auto">
+        <p className="display-4 text-white">COMPLETE YOUR CIRCLE OF CARE</p>
           <p className="lead text-white font-italic">
             doula: a trained professional who provides continuous physical,
             emotional and informational support to a mother before, during 

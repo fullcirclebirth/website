@@ -10,7 +10,7 @@ const styles = {
   }
 }
 
-const blogger = ProcessingInstruction.env.BLOGGER
+const blogger = process.env.REACT_APP_BLOGGER
 
 class Events extends Component {
   constructor(props) {

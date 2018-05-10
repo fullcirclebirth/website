@@ -10,7 +10,7 @@ const styles = {
   }
 }
 
-const blogger = process.env.Blogger
+const blogger = ProcessingInstruction.env.BLOGGER
 
 class Events extends Component {
   constructor(props) {

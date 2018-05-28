@@ -12,7 +12,11 @@ const styles = {
   },
   break2: {
     background: "#5DBCD2"
-  }
+  },
+  imgSize: {
+    maxHeight: "350px",
+    maxWidth: "350px",    
+  },
 }
 
 export default About => {
@@ -23,7 +27,11 @@ export default About => {
       <hr className="my-4" style={styles.break} />
       <div className="row justify-content-center">
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 my-auto text-center pt-5 pb-5">
-          <img className="rounded-circle" src={require("./img/amanda.jpg")} alt="Amanda"/>
+          <img className="img-fluid rounded-circle"
+            src={require("./img/amanda.jpg")} 
+            alt="Amanda"
+            style={styles.imgSize}  
+          />
         </div>
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 my-auto">
           <p className="lead">

@@ -19,7 +19,7 @@ export default Footer => {
       <div className="container">
         <div className="row">
           <div className="col-md-6 mt-3">
-            <p className="lead mb-0">Serving Chattanooga and North GA including: Calhoun, Dalton, Rome</p>
+            <p className="lead mb-0">Serving Chattanooga TN and North GA including: Calhoun, Dalton, Rome</p>
           </div>
           <div className="col-md-6 mt-3 links">
             <a className="fab fa-facebook-f fa-3x"

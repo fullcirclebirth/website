@@ -13,7 +13,7 @@ export default NavBar => {
       id="mainNav"
       style={styles.nav}
     >
-      <div className="container">
+      <div className="container-fluid">
         <a className="navbar-brand js-scroll-trigger text-white">Full Circle</a>
         <button className="navbar-toggler navbar-toggler-right text-uppercase text-white rounded" 
           type="button" 
@@ -34,10 +34,13 @@ export default NavBar => {
               <NavLink className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" to="/About">About</NavLink>
             </li>
             <li className="nav-item mx-0 mx-lg-1">
-              <NavLink className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" to="/Events">Events</NavLink>
+              <NavLink className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" to="/Services">Services</NavLink>
             </li>
             <li className="nav-item mx-0 mx-lg-1">
               <NavLink className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" to="/Resources">Resources</NavLink>
+            </li>
+            <li className="nav-item mx-0 mx-lg-1">
+              <NavLink className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" to="/Testimony">Testimony</NavLink>
             </li>
           </ul>
         </div>

@@ -1,9 +1,14 @@
 import React from 'react'
+import "font-awesome/css/font-awesome.css"
 
 const styles = {
   footer: {
     backgroundColor: "#38588F",
-    color: "#5DBCD2"
+    color: "#fff"
+  },
+  icon: {
+    color: "#fff",
+    textDecoration: "none"
   }
 }
 
@@ -14,10 +19,14 @@ export default Footer => {
       <div className="container">
         <div className="row">
           <div className="col-md-6 mt-3">
-            <p className="lead mb-0">Serving Chattanooga, TN and surrounding areas</p>
+            <p className="lead mb-0">Serving Chattanooga and North GA including: Calhoun, Dalton, Rome</p>
           </div>
-          <div className="col-md-6 mt-3">
-            <p>Logos or other content?</p>
+          <div className="col-md-6 mt-3 links">
+            <a className="fab fa-facebook-f fa-3x"
+              style={styles.icon}
+              href="https://www.facebook.com/FullCircleCBE/"
+            >  
+            </a>
           </div>
         </div>
       </div>

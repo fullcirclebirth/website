@@ -7,12 +7,18 @@ const styles = {
   },
   imgSize: {
     minWidth: '350px'
+  },
+  break: {
+    background: "#38588F",
+  },
+  events: {
+    color: "#38588F"
   }
 }
 
 const blogger = process.env.REACT_APP_BLOGGER
 
-class Events extends Component {
+class Services extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -43,7 +49,7 @@ class Events extends Component {
         this.state.posts.map((post, key) => {
           let event = post.replace(/[^a-zA-Z0-9 ]/g, "")
           return ( 
-            <div key={key} className="text-white lead">
+            <div key={key} className="lead" style={styles.events}>
               <p>{ event }</p>
             </div>
             )
@@ -52,7 +58,7 @@ class Events extends Component {
     } else {
       return (
         <div>
-          <p className="text-white lead">No Events Scheduled</p>
+          <p className="lead" style={styles.events}>No Events Scheduled</p>
         </div>
       )
     }
@@ -60,15 +66,14 @@ class Events extends Component {
 
   render() {
     return (
-      <div className="container" style={styles.bgColor}>
-        <div className="row">
-          <div className="col-md-6 mt-5">
-
+      <div className="container-fluid" style={styles.bgColor}>
+        <h2 className="font-weight-light text-white text-uppercase text-center pt-5 mb-5">Class Description</h2>
+        <hr className="my-4" style={styles.break} />
+        <div className="row justify-content-center">
+          <div className="col-md-4 pt-3">
             { this.renderEvents() }
-          
           </div>
-          <div className="col-md-6">
-          <p className="display-4 align-middle text-white">Class Description</p>
+          <div className="col-md-4 pt-3">
             <p className="lead text-white">
               Over the course of four classes parents will learn anatomy, 
               hospital policies and procedures, physiological process of labor, 
@@ -97,4 +102,4 @@ class Events extends Component {
   }
 }
 
-export default Events
+export default Services

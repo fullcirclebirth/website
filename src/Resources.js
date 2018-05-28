@@ -8,10 +8,6 @@ const styles = {
   header: {
     color: '#5DBCD2',
   },
-  mainText: {
-    maxWidth: "70vw",
-    marginLeft: "15vw"
-  },
   list: {
     listStyle: "none",
   },
@@ -26,7 +22,7 @@ export default Resources => {
       <div className="jumbotron jumbotron-fluid my-auto" style={styles.resources}>
         <h2 className="font-weight-light text-uppercase text-center mb-5" style={styles.header}>Resources</h2>
         <hr className="my-4" style={styles.break} />
-        <div className="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12 pt-5 pb-5" style={styles.mainText}>
+        <div className="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12 pt-5 pb-5">
           <p className="" >
             I think that something needs to go here about how new moms shold be equiped with as  
             many facts as possible on all of the different aspects of pregnancy, birth and newborn care. 
@@ -44,7 +40,7 @@ export default Resources => {
               <a className="mb-2 resources" href="https://www.mamanatural.com/">Mama Natural</a>
               <a className="mb-2 resources" href="https://avivaromm.com/category/natural-pregnancy/">Aviva Romm MD - Natural Pregnancy</a>
             </ul>
-            <h3 className="font-weight-light text-center">Breastfeeding</h3>
+            <h3 className="font-weight-light text-center pt-5">Breastfeeding</h3>
             <ul className="list-group text-center" style={styles.list}>
               <a className="mb-2 resources" href="http://www.nancymohrbacher.com/">Nancy Mohrbacher - Breastfeeding Reporter Blog</a>
               <a className="mb-2 resources" href="https://www.llli.org/">La Leche League International</a>

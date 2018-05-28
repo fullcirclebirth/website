@@ -28,7 +28,7 @@ export default About => {
       <div className="row justify-content-center">
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 my-auto text-center pt-5 pb-5">
           <img className="img-fluid rounded-circle"
-            src={require("./img/amanda.jpeg")} 
+            src={require("./img/amanda2.jpeg")} 
             alt="Amanda"
             style={styles.imgSize}  
           />

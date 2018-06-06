@@ -17,7 +17,7 @@ const styles = {
 
 export default TestimonyCarousel => {
   return (
-    <div id="carouselControls"className="carousel slide font-weight-light mt-5" data-ride="carousel" style={styles.bgColor}>
+    <div id="carouselControls"className="carousel slide font-weight-light mt-5" data-interval="10000" data-ride="carousel" style={styles.bgColor}>
       <div className="carousel-inner">
         <div className="carousel-item active">
           <Link to="/Testimony" style={styles.link}>

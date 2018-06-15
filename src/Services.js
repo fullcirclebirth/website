@@ -130,11 +130,11 @@ class Services extends Component {
               <hr className="my-4" style={styles.break} />
               <h2 className="font-weight-light mt-5 mb-5 text-white text-center">Lactation Support and Education</h2>
               <p className="lead text-white mb-5">
-                I am Certified Lactation Counselor through the <a href="https://www.alpp.org/">ALPP</a>. I am dedicated to the promotion, protection, and support of 
-                breastfeeding and human lactation and work to prevent and solve breastfeeding problems. If you're goal is to succeed 
-                at breastfeeding, my goal is to help you accomplish doing so. Through in home visits, education and connecting to 
-                other necessary resources I will support your desire to breastfeed. In home visits are charged an hourly rate of 
-                $30 plus mileage at .50 cents a mile. 
+                I am Certified Lactation Counselor through the <a href="https://www.alpp.org/">ALPP</a>. I am dedicated to the 
+                promotion, protection, and support of breastfeeding and human lactation and work to prevent and solve breastfeeding 
+                problems. If your goal is to succeed at breastfeeding, my goal is to help you accomplish doing so. Through in 
+                home visits, education and connecting to other necessary resources I will support your desire to breastfeed. In 
+                home visits are charged an hourly rate of $30 plus mileage at .50 cents a mile. 
               </p>
 
               <hr className="my-4" style={styles.break} />

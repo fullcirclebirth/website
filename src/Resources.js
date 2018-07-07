@@ -24,9 +24,10 @@ export default Resources => {
         <h2 className="font-weight-light text-uppercase text-center mb-5" style={styles.header}>Resources</h2>
         <hr className="my-4" style={styles.break} />
         <div className="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12 pt-5 pb-5">
-          <p className="" >
-            Not long ago Childbirth Advocate Cristen Pascucci wrote a great open letter to women called "Dear Friend, 
-            Birth doesn't have to suck". If you're on my website you've taken a step in the direction to educate and 
+          <p>
+            Not long ago Childbirth Advocate Cristen Pascucci wrote a great open letter to women called  
+            <a className="mb-2 resources" href="https://improvingbirth.org/2017/07/dear-friend/"> "Dear Friend, 
+            Birth doesn't have to suck"</a>. If you're on my website you've taken a step in the direction to educate and 
             equip yourself with the tools and resources that will make your birth story completely different than it 
             would have been if you just sat back and let someone else direct this journey. It is hard to swim up stream; 
             to go against what culture has ingrained in us for decades. When you choose to be actively involved in 

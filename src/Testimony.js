@@ -6,7 +6,13 @@ const styles = {
   },
   break: {
     background: "#fff",
-  }
+  },
+  imgSize: {
+    position: "relative",
+    height: "150px",
+    width: "150px",
+    overflow: "hidden",
+  },
 }
 
 export default Testimony => {
@@ -29,6 +35,11 @@ export default Testimony => {
         </blockquote>
         <hr className="my-4" style={styles.break} />
         <blockquote className="blockquote">
+          <img className="img-fluid rounded-circle" 
+            src={require("./img/IMG_1183.JPG")} 
+            alt="Full Circle Birth Logo" 
+            style={styles.imgSize}
+          />
           <p className="lead text-white">
             Amanda was an awesome doula! This was my first pregnancy and I thought I had read 
             enough and prepared enough from my birthing class to know what to expect. I wanted 
@@ -47,6 +58,11 @@ export default Testimony => {
         </blockquote>
         <hr className="my-4" style={styles.break} />
         <blockquote className="blockquote">
+          <img className="img-fluid rounded-circle" 
+            src={require("./img/Melissasbirth1.jpg")} 
+            alt="Full Circle Birth Logo" 
+            style={styles.imgSize}
+          />
           <p className="lead text-white">
             There are not enough superlatives to describe Amanda's amazing doula talents.  We felt immediately 
             comfortable with her from our first meeting.  She was proactive, knowledgable, supportive of my 
@@ -63,6 +79,11 @@ export default Testimony => {
         </blockquote>
         <hr className="my-4" style={styles.break} />
         <blockquote className="blockquote">
+          <img className="img-fluid rounded-circle" 
+            src={require("./img/eryn-baby.jpg")} 
+            alt="Full Circle Birth Logo" 
+            style={styles.imgSize}
+          />
           <p className="text-white">
             I had very high hopes for my birth experience as a first time mom, and of course, very little went as 
             I expected! On the day I went into labor, my baby was already two weeks late and I was scheduled to be 

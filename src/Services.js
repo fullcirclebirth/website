@@ -74,6 +74,7 @@ class Services extends Component {
               <h2 className="font-weight-light mt-5 mb-5 text-white text-center">Class Schedule</h2>
               <hr className="my-4" style={styles.break} />
               { this.renderEvents() }
+              <p>* dates are subject to change</p>
               <p>
                 Group Class is $250 and reserves seats for two people and includes class materials. 
               </p>

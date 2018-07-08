@@ -32,14 +32,16 @@ export default Testimony => {
             without her! 
           </p>
           <footer className="blockquote-footer text-white text-center"><cite>Ongeleigh U</cite></footer>
+          <div className="text-center mt-3">
+            <img className="img-fluid rounded-circle" 
+              src={require("./img/ongeleigh-baby.jpg")} 
+              alt="Full Circle Birth Logo" 
+              style={styles.imgSize}
+            />
+          </div>
         </blockquote>
         <hr className="my-4" style={styles.break} />
         <blockquote className="blockquote">
-          <img className="img-fluid rounded-circle" 
-            src={require("./img/IMG_1183.JPG")} 
-            alt="Full Circle Birth Logo" 
-            style={styles.imgSize}
-          />
           <p className="lead text-white">
             Amanda was an awesome doula! This was my first pregnancy and I thought I had read 
             enough and prepared enough from my birthing class to know what to expect. I wanted 
@@ -55,14 +57,16 @@ export default Testimony => {
             gentle, Amanda is your gal!
           </p>
           <footer className="blockquote-footer text-white text-center"><cite>Ansley B</cite></footer>
+          <div className="text-center mt-3">
+            <img className="img-fluid rounded-circle" 
+              src={require("./img/ansley-baby.jpg")} 
+              alt="Full Circle Birth Logo" 
+              style={styles.imgSize}
+            />
+          </div>
         </blockquote>
         <hr className="my-4" style={styles.break} />
         <blockquote className="blockquote">
-          <img className="img-fluid rounded-circle" 
-            src={require("./img/Melissasbirth1.jpg")} 
-            alt="Full Circle Birth Logo" 
-            style={styles.imgSize}
-          />
           <p className="lead text-white">
             There are not enough superlatives to describe Amanda's amazing doula talents.  We felt immediately 
             comfortable with her from our first meeting.  She was proactive, knowledgable, supportive of my 
@@ -76,14 +80,16 @@ export default Testimony => {
             of our experience.
           </p>
           <footer className="blockquote-footer text-white text-center"><cite>Melissa Deles, Eric Cummings and baby Emmett</cite></footer>
+          <div className="text-center mt-3">
+            <img className="img-fluid rounded-circle" 
+              src={require("./img/melissa-birth.jpg")} 
+              alt="Full Circle Birth Logo" 
+              style={styles.imgSize}
+            />
+          </div>
         </blockquote>
         <hr className="my-4" style={styles.break} />
         <blockquote className="blockquote">
-          <img className="img-fluid rounded-circle" 
-            src={require("./img/eryn-baby.jpg")} 
-            alt="Full Circle Birth Logo" 
-            style={styles.imgSize}
-          />
           <p className="text-white">
             I had very high hopes for my birth experience as a first time mom, and of course, very little went as 
             I expected! On the day I went into labor, my baby was already two weeks late and I was scheduled to be 
@@ -94,6 +100,13 @@ export default Testimony => {
             made a difference. My answer is simple: don't give birth without one! 
           </p>
           <footer className="blockquote-footer text-white text-center"><cite>Eryn M</cite></footer>
+          <div className="text-center mt-3">
+            <img className="img-fluid rounded-circle" 
+              src={require("./img/eryn-baby.png")} 
+              alt="Full Circle Birth Logo" 
+              style={styles.imgSize}
+            />
+          </div>
         </blockquote>
       </div>
     </div>

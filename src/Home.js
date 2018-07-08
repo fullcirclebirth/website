@@ -9,15 +9,6 @@ const styles = {
     height: "350px",
     width: "350px",    
   },
-  imgSize2: {
-    // height: "250px",
-    // width: "350px",
-    // borderRadius: "50%",
-    position: "relative",
-    height: "300px",
-    width: "300px",
-    overflow: "hidden",
-  },
   break: {
     background: "#fff",
   }
@@ -32,11 +23,6 @@ export default Home => {
             src={require("./img/full-circle-white.png")} 
             alt="Full Circle Birth Logo" 
             style={styles.imgSize}
-          />
-          <img className="img-fluid rounded-circle" 
-            src={require("./img/pregnant.jpg")} 
-            alt="Full Circle Birth Logo" 
-            style={styles.imgSize2}
           />
         </div>
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 my-auto">

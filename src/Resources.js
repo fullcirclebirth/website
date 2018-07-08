@@ -23,7 +23,7 @@ export default Resources => {
       <div className="jumbotron jumbotron-fluid my-auto" style={styles.resources}>
         <h2 className="font-weight-light text-uppercase text-center mb-5" style={styles.header}>Resources</h2>
         <hr className="my-4" style={styles.break} />
-        <div className="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12 pt-5 pb-5">
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 pt-5 pb-5">
           <p>
             Not long ago Childbirth Advocate Cristen Pascucci wrote a great open letter to women called  
             <a className="mb-2 resources" href="https://improvingbirth.org/2017/07/dear-friend/"> "Dear Friend, 
@@ -42,7 +42,7 @@ export default Resources => {
         </div>
         <hr className="my-4" style={styles.break} />
         <div className="row justify-content-center">
-          <div className="col-md-4 justify-content-center mb-5">
+          <div className="col-md-4 justify-content-center">
             <h3 className="font-weight-light text-center">Certifying Organizations</h3>
             <ul className="list-group text-center mb-2" style={styles.list}>
               <a className="mb-2 resources" href="http://icea.org/">The International Childbirth Education Association</a>
@@ -62,7 +62,7 @@ export default Resources => {
               <a className="mb-2 resources" href="https://www.llli.org/">La Leche League International</a>
             </ul>
           </div>
-          <div className="col-md-4 justify-content-center mb-5">
+          <div className="col-md-4 justify-content-center">
             <h3 className="font-weight-light text-center">Books</h3>
             <ul className="list-group text-center" style={styles.list}>
               <a className="mb-2 resources" href="https://www.amazon.com/Birth-Partner-Completely-Revised-Updated/dp/1558328807">The Birth Partner, 4th Edition</a>

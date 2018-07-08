@@ -10,10 +10,10 @@ import PageNotFound from './PageNotFound'
 
 export default (
   <Switch>
-    <Route exact path="/About" component={About}/>
-    <Route exact path="/Services" component={Services}/>
-    <Route exact path="/Resources" component={Resources}/>
-    <Route exact path="/Testimony" component={Testimony}/>
+    <Route exact path="/about" component={About}/>
+    <Route exact path="/services" component={Services}/>
+    <Route exact path="/resources" component={Resources}/>
+    <Route exact path="/testimony" component={Testimony}/>
     <Route exact path="/" component={Home}/>
     <Route exact path="*" component={PageNotFound}/>
   </Switch>

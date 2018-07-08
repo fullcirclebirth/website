@@ -20,7 +20,7 @@ export default TestimonyCarousel => {
     <div id="carouselControls"className="carousel slide font-weight-light mt-5" data-interval="10000" data-ride="carousel" style={styles.bgColor}>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <Link to="/Testimony" style={styles.link}>
+          <Link to="/testimony" style={styles.link}>
             <p className="text-white w-75 mb-0 align-middle" style={styles.testimony}>
               I am so grateful for her presence and integral involvement in 
               bringing my daughter into this world. I wont do it again 

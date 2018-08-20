@@ -28,16 +28,16 @@ export default Resources => {
             Not long ago Childbirth Advocate Cristen Pascucci wrote a great open letter to women called  
             <a className="mb-2 resources" href="https://improvingbirth.org/2017/07/dear-friend/"> "Dear Friend, 
             Birth doesn't have to suck"</a>. If you're on my website you've taken a step in the direction to educate and 
-            equip yourself with the tools and resources that will make your birth story completely different than it 
-            would have been if you just sat back and let someone else direct this journey. It is hard to swim up stream; 
+            equip yourself with the tools and resources that will make your birth story completely different than if you 
+            just sat back and let someone else direct this journey. It is hard to swim up stream; 
             to go against what culture has ingrained in us for decades. When you choose to be actively involved in 
-            decision making with your care provider; you are changing the culture of birth for your children. It can 
-            decades for us to see lasting change in the medical model. The birth of our children is a consumer driven market, 
-            and as the consumer you can speak loud a clear about what you want your care to look like. My passion runs deep 
-            for our over all health and well being. The birth process and the support we receive for breastfeeding deeply 
+            decision making with your care provider you are changing the culture of birth for your children. It can 
+            take decades for us to see lasting change in the medical model. The birth of our children is a consumer-driven market, 
+            and as the consumer, you can speak loud and clear about what you want your care to look like. My passion runs deep 
+            for our overall health and well being. The birth process and the support we receive for breastfeeding deeply 
             impact the physical, biological, and emotional health of a family long term. There are so many resources I love 
-            and want to share with you about birth, breastfeeding, and parenting. Remember  
-            <i>When You Know Better, You Do Better, Maya Angelou.</i>  
+            and want to share with you about birth, breastfeeding, and parenting. Remember,  
+            <i>"When you know better, you do better" -Maya Angelou.</i>  
           </p>
         </div>
         <hr className="my-4" style={styles.break} />

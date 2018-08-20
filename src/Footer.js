@@ -27,6 +27,11 @@ export default Footer => {
               href="https://www.facebook.com/FullCircleCBE/"
             >  
             </a>
+            <a 
+              className="text-white pl-3" 
+              href="mailto:Amanda.FullCircle@gmail.com?subject=I want to learn more about Full Circle Child Birth">
+              Amanda.FullCircle@gmail.com
+            </a>
           </div>
         </div>
       </div>

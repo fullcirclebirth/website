@@ -28,9 +28,9 @@ export default Home => {
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 my-auto">
           <h3 className="font-weight-light mt-5 mb-5 text-white text-center">COMPLETE YOUR CIRCLE OF CARE</h3>
           <p className="lead text-white">
-            Doula Services, Lactation Support and Childbirth Education Classes 
-            that believe in the freedom to make decisions based on knowledge of 
-            alternatives in family-centered maternity and newborn care.
+            Offering doula services, lactation support and childbirth education 
+            classes that are centered around the freedom to make decisions based 
+            on knowledge of alternatives in family-centered maternity and newborn care.
           </p>
           <hr className="my-4" style={styles.break} />
           <p className="lead text-white font-italic">

@@ -13,6 +13,9 @@ const styles = {
   },
   events: {
     color: "#38588F"
+  },
+  link: {
+    color: "#38588F"
   }
 }
 
@@ -68,7 +71,7 @@ class Services extends Component {
     return (
       <div>
         <div className="container-fluid" style={styles.bgColor}>
-          <h2 className="font-weight-light text-white text-uppercase text-center pt-5 mb-5">Class Series</h2>
+          <h2 className="font-weight-light text-white text-uppercase text-center pt-5 mb-5">Services</h2>
           <div className="row justify-content-center">
             <div className="col-md-4 pt-3 text-white lead">
               <h2 className="font-weight-light mt-5 mb-5 text-white text-center">Class Schedule</h2>
@@ -82,8 +85,15 @@ class Services extends Component {
                 Registration Fee: A $50 registration is required to book your classes. 
               </p>
               <p>
-                This fee is nonrefundable
+                This fee is non-refundable
               </p>
+              {
+                this.state.show ?
+                <a href="mailto:Amanda.FullCircle@gmail.com?subject=I want to register for a Full Circle Child Birth class">
+                  <button type="button" class="btn btn-outline-light">Register Now</button>
+                </a> :
+                null
+              }
             </div>
             <div className="col-md-4 pt-3 lead text-white">
               <p>
@@ -131,7 +141,7 @@ class Services extends Component {
               <hr className="my-4" style={styles.break} />
               <h2 className="font-weight-light mt-5 mb-5 text-white text-center">Lactation Support and Education</h2>
               <p className="lead text-white mb-5">
-                I am Certified Lactation Counselor through the <a href="https://www.alpp.org/">ALPP</a>. I am dedicated to the 
+                I am Certified Lactation Counselor through the <a style={styles.link} href="https://www.alpp.org/">ALPP</a>. I am dedicated to the 
                 promotion, protection, and support of breastfeeding and human lactation and work to prevent and solve breastfeeding 
                 problems. If your goal is to succeed at breastfeeding, my goal is to help you accomplish doing so. Through in 
                 home visits, education and connecting to other necessary resources I will support your desire to breastfeed. In 

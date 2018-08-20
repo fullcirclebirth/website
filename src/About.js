@@ -40,14 +40,14 @@ export default About => {
             Yet, I recognize that we live in a broken world with bodies that do not always function 
             according to this design. For this reason I am thankful we have access to lifesaving 
             tools and resources. They are tools in our tool box, but not ones we need to jump to 
-            using with out necessity. 
+            using without necessity. 
           </p>
           <hr className="my-4" style={styles.break2} />
           <p className="lead">
             When parents take my Childbirth Education class I provide information that allows parents 
-            to feel empowered and have positive feelings about the birthing process, a class that 
-            promotes informed decision making based on all available options, and a class that provides 
-            the most up to date information on evidence based care for mother and baby.
+            to feel empowered and have positive feelings about the birthing process, promote informed 
+            decision making based on all available options, offer the most up to 
+            date information on evidence based care for mother and baby.
           </p>
           <hr className="my-4" style={styles.break2} />
           <p className="lead">

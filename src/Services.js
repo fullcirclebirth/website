@@ -89,7 +89,7 @@ class Services extends Component {
               </p>
               {
                 this.state.show ?
-                <a href="mailto:Amanda.FullCircle@gmail.com?subject=I want to register for a Full Circle Child Birth class">
+                <a href="mailto:Amanda.FullCircleBirth@gmail.com?subject=I want to register for a Full Circle Child Birth class">
                   <button type="button" class="btn btn-outline-light">Register Now</button>
                 </a> :
                 null

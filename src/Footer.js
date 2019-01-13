@@ -29,8 +29,8 @@ export default Footer => {
             </a>
             <a 
               className="text-white pl-3" 
-              href="mailto:Amanda.FullCircle@gmail.com?subject=I want to learn more about Full Circle Child Birth">
-              Amanda.FullCircle@gmail.com
+              href="mailto:Amanda.FullCircleBirth@gmail.com?subject=I want to learn more about Full Circle Child Birth">
+              Amanda.FullCircleBirth@gmail.com
             </a>
           </div>
         </div>

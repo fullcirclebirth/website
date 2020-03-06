@@ -6,7 +6,7 @@
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
     "axios": "^0.18.0",
-    "bootstrap": "^4.1.1",
+    "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",

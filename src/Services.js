@@ -119,28 +119,34 @@ class Services extends Component {
                 </a>
             </div>
           </div>
-          <div className="lead text-white justify-content-center" style={styles.classDetails}>
-            <p>
-              Over the course of four classes parents will learn anatomy, 
-              hospital policies and procedures, physiological process of labor, 
-              and optimal fetal positioning.
-            </p>
-            <p>
-              We will cover evidence based information on pregnancy and birth. 
-              Parents will recognize the Rights of the Childbearing Woman.
-            </p>
-            <p>
-              We will cover the postpartum experience including care and healing. 
-              As well as encourage partners to discuss expectations for labor and postpartum.
-            </p>
-            <p>
-              Partners will learn comfort measures and coping skills including breathing, relaxation, 
-              positions to labor in, positions to push in, positions for optimal fetal positioning.
-            </p>
-            <p>
-              Parents will complete the class series feeling: empowered, prepared, informed, 
-              educated, confident and capable as they approach the birth of their baby.
-            </p>
+          <div className="container-fluid" style={styles.bgColor}>
+            <div className="row justify-content-center">
+              <div className="col-md-8 my-auto">
+                <div className="lead text-white justify-content-center" style={styles.classDetails}>
+                  <p>
+                    Over the course of four classes parents will learn anatomy, 
+                    hospital policies and procedures, physiological process of labor, 
+                    and optimal fetal positioning.
+                  </p>
+                  <p>
+                    We will cover evidence based information on pregnancy and birth. 
+                    Parents will recognize the Rights of the Childbearing Woman.
+                  </p>
+                  <p>
+                    We will cover the postpartum experience including care and healing. 
+                    As well as encourage partners to discuss expectations for labor and postpartum.
+                  </p>
+                  <p>
+                    Partners will learn comfort measures and coping skills including breathing, relaxation, 
+                    positions to labor in, positions to push in, positions for optimal fetal positioning.
+                  </p>
+                  <p>
+                    Parents will complete the class series feeling: empowered, prepared, informed, 
+                    educated, confident and capable as they approach the birth of their baby.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="container-fluid" style={styles.bgColor}>
